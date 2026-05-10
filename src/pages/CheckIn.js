@@ -104,7 +104,7 @@ function CheckIn() {
                 value={name}
                 autoFocus
                 onChange={(e) => setName(e.target.value)}
-                placeholder="예: 김민수"
+                placeholder="예: 홍길동"
                 className="
                   w-full
                   h-24
@@ -165,7 +165,7 @@ function CheckIn() {
             </p>
 
             <p className="mt-3 text-lg text-slate-400">
-              함께해주셔서 감사합니다
+              참석해주셔서 감사합니다
             </p>
           </div>
         )}
